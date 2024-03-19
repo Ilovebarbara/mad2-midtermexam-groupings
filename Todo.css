@@ -1,0 +1,137 @@
+
+body {
+  background-image: url('image/background.webp'); 
+  /* Remove background-size property to maintain original size */
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #3106f0a4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(2, 1, 1);
+}
+
+h1 {
+  text-align: center;
+}
+
+#todo-heading {
+  text-align: left;
+  color: #e3e5e7;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.todo-list {
+  margin-top: 60px;
+  margin-left: 10px; 
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #fa8a00;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.todo-item {
+  display: grid;
+  grid-template-columns: auto 110px;
+  background-color: #dcd2c1;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.todo-item h2 {
+  margin-top: 0;
+  grid-column: 1;
+}
+
+input[type="text"] {
+  width: 100%;
+  position: absolute;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #cd1111;
+  outline: none;
+  border-color: #3870ab;
+  z-index: 10;
+}
+
+.input-container {
+  position: relative; 
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 3px solid #bb0d0d;
+  outline: none;
+  border-color: #007bff;
+}
+
+.todo-image {
+  grid-column: 1;
+  max-width: 100%;
+  border-radius: 10px;
+  width: 50%;
+  height: 80%;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.logo {
+  position: absolute; 
+  top: 16px; 
+  left: calc(55% - 10px); 
+  width: 250px; 
+  height: 190px; 
+  z-index: 8; 
+}
+
+.add-container {
+  position: relative; 
+}
+
+.add {
+  position: absolute;
+  top: 100px; 
+  left: calc(55% - 35px); 
+  width: 70px; 
+  height: 70px; 
+  z-index: 9; 
+}
+
+.timer {
+  text-align: center;
+  z-index: 11;
+}
+
+#timerDisplay {
+  font-size: 36px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #010407;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

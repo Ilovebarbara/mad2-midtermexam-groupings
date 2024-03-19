@@ -1,0 +1,96 @@
+{
+  "TodoList":  [
+{
+  "ID" : 1,
+  "Title": "Sleeping",
+  "DATE": "2024-03-17",
+  "STATUS":"Blank",
+  "IMAGE_PATH": "image/sleeping.jfif"
+
+},
+
+{
+    "ID" : 2,
+    "Title": "Shopping",
+    "DATE": "2024-03-18",
+    "STATUS": "Blank",
+    "IMAGE_PATH": "image/shopping.jfif"
+
+  
+  },
+
+  {
+    "ID" : 3,
+    "Title": "Talk to Friends",
+    "DATE": "2024-03-17",
+    "STATUS":"Blank",
+    "IMAGE_PATH":"image/talk to friends.jpg"
+  
+  },
+
+  {
+    "ID" : 4,
+    "Title": "Watch Film",
+    "DATE": "2024-03-19",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/watch film.jfif"
+  
+  },
+
+  {
+    "ID" : 5,
+    "Title": "Exercise",
+    "DATE": "2024-03-17",
+    "STATUS":"Blank",
+  "IMAGE_PATH": "image/exercise.jfif"
+  
+  },
+
+  {
+    "ID" : 6,
+    "Title": "Buy Foods",
+    "DATE": "2024-03-17",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/buy foods.jfif"
+  
+  },
+
+  {
+    "ID" : 7,
+    "Title": "Code for an Hour",
+    "DATE": "2024-03-21",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/Code for an Hour.jfif"
+  
+  },
+
+  {
+    "ID" : 8,
+    "Title": "Organize Room",
+    "DATE": "2024-03",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/Organize Room.jfif"
+  
+  },
+
+  {
+    "ID" : 9,
+    "Title": "Plan For Vacation",
+    "DATE": "2024-03-17",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/vacation.jfif"
+  
+  },
+
+  {
+    "ID" : 10,
+    "Title": "Attend Class",
+    "DATE": "2024-03-22",
+    "STATUS":"Blank",
+    "IMAGE_PATH": "image/Attend Class.jfif"
+    
+  
+  }
+
+    ]
+}
